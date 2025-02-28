@@ -1,5 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { getAdvice } from "../services/DataService";
+import patternDividerD from "/src/assets/pattern-divider-desktop.svg"
+import patternDividerM from "/src/assets/pattern-divider-mobile.svg"
+import diceIcon from "/src/assets/icon-dice.svg"
 
 const AdviceGen = () => {
   const [advice, setAdvice] = useState([]);
@@ -24,14 +27,14 @@ const AdviceGen = () => {
       </div>
       
       <div className="flex justify-center moveItems">
-        <img className="desktop-display mt-[95px]" src="./src/assets/pattern-divider-desktop.svg" alt="pattern divider for desktop" />
-        <img className="mobile-display mt-[95px]" src="./src/assets/pattern-divider-mobile.svg" alt="pattern divider for mobile" />
+        <img className="desktop-display mt-[95px]" src={patternDividerD} alt="pattern divider for desktop" />
+        <img className="mobile-display mt-[95px]" src={patternDividerM} alt="pattern divider for mobile" />
       </div>
       
 
     <div className="flex justify-center mt-[35px]">
       
-      <button className="flex justify-center w-[60px] h-[60px] rounded-[100%] items-center button-style hover:shadow-[0px_0px_20px_0px_rgba(83,255,172)]" onClick={getNewAdvice}><img src="./src/assets/icon-dice.svg" alt="Dice Button" /></button>
+      <button className="flex justify-center w-[60px] h-[60px] rounded-[100%] items-center button-style hover:shadow-[0px_0px_20px_0px_rgba(83,255,172)]" onClick={getNewAdvice}><img src={diceIcon} alt="Dice Button" /></button>
     </div>
       
       

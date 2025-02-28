@@ -6,6 +6,8 @@
 
 **Description**: Built an advice generator in react while following these requirements: 
 
+Shout out to Charles for helping me get the button hover effect
+
 - Built in React
 - Use https://api.adviceslip.com/advice for your API call
 - Must have a component folder ( App cannot be built in the app.js or in the index.js)
