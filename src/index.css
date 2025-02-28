@@ -1,0 +1,60 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('./assets/fonts/Manrope-ExtraBold.ttf');
+}
+
+body{
+    background-color: hsl(217, 19%, 24%);
+    font-family: 'Manrope';
+  }
+  
+  .advice-box{
+    width: 500px;
+    height: 350px;
+    background-color: hsl(215, 26%, 27%);
+  }
+
+  .id-txt{
+    color: hsl(150, 100%, 66%);
+    font-size: 20px;
+  }
+
+  .advice-txt{
+    font-size: 28px;
+  }
+
+  .button-style{
+    background-color: hsl(150, 100%, 66%);
+  }
+
+  .mobile-display{
+    display: none;
+  }
+
+ 
+@media (max-width: 450px) {
+  .desktop-display{
+    display: none;
+  }
+  .mobile-display{
+    display: block;
+  }
+
+  .advice-box{
+    margin-top: -50px;
+    width: 350px;
+    height: 400px;
+  }
+
+  .moveItems{
+    margin-top: 50px;
+  }
+
+  .advice-txt{
+    font-size: 25px;
+  }
+}
