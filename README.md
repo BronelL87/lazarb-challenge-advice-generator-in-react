@@ -20,8 +20,8 @@ Shout out to Charles for helping me get the button hover effect
 ### Peer Review
 
 
-**Reviewer** 
+**Reviewer:** Micahel Heckerman
  
 
-**Reviewer Notes**
+**Reviewer Notes:** Site looks pretty close to the design images. Worked properly on both desktop and mobile. All in all good job. The only thing I noticed was that you component and service folders were in the assets folder, little weird but the site still worked.
  
